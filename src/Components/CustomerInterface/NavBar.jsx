@@ -38,7 +38,7 @@ function NavBar() {
             </Nav.Link>
             <Nav.Link 
               as={Link} 
-              to="/AboutUs" 
+              to="/about" 
               className="nav-link"
               onClick={() => setExpanded(false)}
             >

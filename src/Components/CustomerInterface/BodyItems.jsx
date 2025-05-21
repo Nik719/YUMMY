@@ -124,7 +124,17 @@ function BodyItems() {
         {currentItems.map((item, index) => (
           <Card key={index} className="food-card">
             <div className="card-img-container">
-              <Card.Img variant="top" src={`${item.item_image}`} className="food-card-img" />
+              <Card.Img 
+                variant="top" 
+                src={`${import.meta.env.BASE_URL}${item.item_image}`} 
+                className="food-card-img" 
+                onError={(e) => {
+                  // Fallback in case image fails to load
+                  e.target.onerror = null;
+                  e.target.src = item.item_image;
+                  console.error(`Failed to load image: ${item.item_image}`);
+                }}
+              />
               <div className="price-tag">₹{item.price}</div>
             </div>
             <Card.Body className="food-card-body">

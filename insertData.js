@@ -21,6 +21,7 @@ async function run(){
         const document = await col.findOne(filter);
         console.log("Document found:\n" + JSON.stringify(document));
     }
+    
     catch (err) {
         console.log(err.stack);
     }
