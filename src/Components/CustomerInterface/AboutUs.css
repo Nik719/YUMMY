@@ -1,0 +1,104 @@
+.about-us-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.about-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.about-card {
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Team section styling */
+.team-section {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.team-member {
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+/* Team member image styling */
+.team-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px;
+  display: block; /* This ensures the image is properly centered */
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* For a more modern look, you could add a subtle hover effect */
+.team-img:hover, .team-img-placeholder:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Placeholder for team members without images */
+.team-img-placeholder {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  margin: 0 auto 15px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Team member name and role styling */
+.team-member h4 {
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.team-member p {
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-intro {
+    font-size: 1rem;
+  }
+  .team-img, .team-img-placeholder {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-img, .team-img-placeholder {
+    width: 120px;
+    height: 120px;
+  }
+}

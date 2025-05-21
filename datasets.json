@@ -1,0 +1,154 @@
+{
+  "menu": {
+    "Appetizers": [
+      {
+        "item_name": "Veg Spring Rolls",
+        "description": "Enjoy the crunch and flavor of these crispy fried rolls stuffed with a medley of finely chopped vegetables and served with a sweet and sour dipping sauce",
+        "price": 120
+      },
+      {
+        "item_name": "Chicken Lollipop",
+        "description": "Indulge in these spicy and succulent chicken wings marinated in a tangy sauce and deep-fried to perfection",
+        "price": 150
+      },
+      {
+        "item_name": "Cheese Garlic Bread",
+        "description": "Savor the aroma and taste of these toasted bread slices topped with melted cheese and garlic butter, sprinkled with oregano and parsley",
+        "price": 100
+      },
+      {
+        "item_name": "Potato Wedges",
+        "description": "Relish these deep-fried potato wedges seasoned with salt and pepper, accompanied by a creamy mayonnaise dip",
+        "price": 80
+      }
+    ],
+    "Soups": [
+      {
+        "item_name": "Tomato Soup",
+        "description": "Warm up with this fresh and smooth tomato soup garnished with cream and croutons, enhanced with basil and black pepper",
+        "price": 90
+      },
+      {
+        "item_name": "Hot and Sour Soup",
+        "description": "Spice up your palate with this spicy and sour soup with vegetables and tofu, flavored with vinegar, soy sauce, and chili sauce",
+        "price": 110
+      },
+      {
+        "item_name": "Chicken Noodle Soup",
+        "description": "Comfort your soul with this hearty and nourishing soup with chicken, noodles, and vegetables, seasoned with thyme and bay leaf",
+        "price": 130
+      },
+      {
+        "item_name": "Mushroom Soup",
+        "description": "Delight in this creamy and velvety soup with fresh mushrooms and herbs, topped with a swirl of cream and parsley",
+        "price": 100
+      }
+    ],
+    "Salads": [
+      {
+        "item_name": "Greek Salad",
+        "description": "Refresh yourself with this vibrant salad with lettuce, tomatoes, cucumbers, olives, feta cheese, and dressing, drizzled with olive oil and lemon juice",
+        "price": 150
+      },
+      {
+        "item_name": "Caesar Salad",
+        "description": "Enjoy this classic salad with romaine lettuce, croutons, parmesan cheese, and caesar dressing, tossed with grilled chicken and bacon bits",
+        "price": 160
+      },
+      {
+        "item_name": "Chicken Salad",
+        "description": "Satisfy your hunger with this delicious salad with grilled chicken, lettuce, carrots, corn, and dressing, garnished with almonds and cranberries",
+        "price": 180
+      },
+      {
+        "item_name": "Fruit Salad",
+        "description": "Treat yourself with this colorful and sweet salad with assorted fruits and honey, sprinkled with mint leaves and coconut flakes",
+        "price": 120
+      }
+    ],
+    "Main Course": [
+      {
+        "item_name": "Veg Biryani",
+        "description": "Experience the aroma and flavor of this fragrant rice dish cooked with vegetables and spices, served with raita and pickle",
+        "price": 200
+      },
+      {
+        "item_name": "Chicken Biryani",
+        "description": "Savor the taste of this flavorful rice dish cooked with chicken and spices, served with raita and pickle",
+        "price": 250
+      },
+      {
+        "item_name": "Paneer Butter Masala",
+        "description": "Relish this rich and creamy curry with cottage cheese and butter, simmered in a tomato-based gravy, served with naan or roti",
+        "price": 220
+      },
+      {
+        "item_name": "Butter Chicken",
+        "description": "Indulge in this popular and creamy curry with chicken and butter, cooked in a tomato-based gravy, served with naan or roti",
+        "price": 260
+      },
+      {
+        "item_name": "Veg Pizza",
+        "description": "Enjoy this thin crust pizza with cheese and vegetable toppings, baked in a wood-fired oven, served with ketchup and oregano",
+        "price": 300
+      },
+      {
+        "item_name": "Chicken Pizza",
+        "description": "Delight in this thin crust pizza with cheese and chicken toppings, baked in a wood-fired oven, served with ketchup and oregano",
+        "price": 350
+      },
+      {
+        "item_name": "Veg Noodles",
+        "description": "Have fun with this stir-fried noodle dish with vegetables and soy sauce, tossed with sesame seeds and spring onions",
+        "price": 180
+      },
+      {
+        "item_name": "Chicken Noodles",
+        "description": "Love this stir-fried noodle dish with chicken and soy sauce, tossed with sesame seeds and spring onions",
+        "price": 200
+      },
+      {
+        "item_name": "Veg Burger",
+        "description": "Bite into this tasty burger with a vegetable patty, lettuce, tomato, and cheese, sandwiched between toasted buns, served with fries and coleslaw",
+        "price": 150
+      },
+      {
+        "item_name": "Chicken Burger",
+        "description": "Enjoy this juicy burger with a chicken patty, lettuce, tomato, and cheese, sandwiched between toasted buns, served with fries and coleslaw",
+        "price": 180
+      }
+    ],
+    "Desserts": [
+      {
+        "item_name": "Chocolate Cake",
+        "description": "Celebrate with this moist and decadent chocolate cake with frosting, decorated with chocolate shavings and cherries",
+        "price": 150
+      },
+      {
+        "item_name": "Carrot Cake",
+        "description": "Appreciate this moist and delicious carrot cake with cream cheese frosting, adorned with walnuts and raisins",
+        "price": 140
+      },
+      {
+        "item_name": "Ice Cream",
+        "description": "Cool down with this scoop of your choice of ice cream flavor, topped with whipped cream and nuts",
+        "price": 80
+      },
+      {
+        "item_name": "Gulab Jamun",
+        "description": "Enjoy this traditional Indian dessert of deep-fried balls soaked in sugar syrup, flavored with cardamom and rose water",
+        "price": 100
+      },
+      {
+        "item_name": "Brownie",
+        "description": "Cherish this chewy and fudgy chocolate brownie, served with vanilla ice cream and chocolate sauce",
+        "price": 120
+      },
+      {
+        "item_name": "Rasgulla",
+        "description": "Relish this traditional Indian dessert of soft cheese balls soaked in sugar syrup, infused with saffron and pistachios",
+        "price": 20
+      }
+    ]
+  }
+}

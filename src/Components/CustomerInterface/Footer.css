@@ -1,0 +1,198 @@
+.footer-section {
+  background-color: #1a1a2e;
+  color: #f0f0f0;
+  padding: 4rem 0 2rem;
+  margin-top: 3rem;
+}
+
+/* Footer top section */
+.footer-top {
+  margin-bottom: 2rem;
+}
+
+/* Brand section */
+.footer-info h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+.footer-info p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #FC6A03;
+  transform: translateY(-3px);
+}
+
+/* Quick links section */
+.footer-links h4,
+.footer-contact h4,
+.footer-hours h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-links h4:after,
+.footer-contact h4:after,
+.footer-hours h4:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #FC6A03;
+}
+
+.footer-links ul,
+.footer-contact ul,
+.footer-hours ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer-links ul li a:hover {
+  color: #FC6A03;
+  transform: translateX(5px);
+}
+
+/* Contact section */
+.footer-contact ul li {
+  display: flex;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  color: #FC6A03;
+  min-width: 16px;
+}
+
+/* Hours section */
+.footer-hours ul li {
+  display: flex;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.hours-icon {
+  margin-right: 10px;
+  color: #FC6A03;
+  min-width: 16px;
+  margin-top: 4px;
+}
+
+.footer-hours ul li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.day {
+  font-weight: 600;
+  color: #ddd;
+}
+
+.time {
+  font-size: 0.9rem;
+}
+
+/* Footer divider */
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 2rem 0;
+}
+
+/* Footer bottom section */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.footer-bottom-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.footer-bottom-links a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #FC6A03;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .footer-section {
+    padding: 3rem 0 1.5rem;
+  }
+  
+  .footer-bottom-links {
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-info, .footer-links, .footer-contact, .footer-hours {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-bottom-links {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}

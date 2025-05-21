@@ -1,0 +1,221 @@
+/* Connect Us Page Styling */
+.connect-us-page {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.connect-header {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.connect-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.connect-header p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* Content Section */
+.connect-content {
+  margin-bottom: 4rem;
+}
+
+/* Contact Information Section */
+.contact-info {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.contact-info h3:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #FC6A03;
+}
+
+.contact-info > p {
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.info-item {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.icon-container {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(252, 106, 3, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  color: #FC6A03;
+}
+
+.info-content h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.info-content p {
+  color: #666;
+  margin-bottom: 0;
+}
+
+.business-hours {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+.business-hours .card-header {
+  background-color: #FC6A03;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+}
+
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.hours-row:last-child {
+  margin-bottom: 0;
+}
+
+.day {
+  font-weight: 500;
+  color: #333;
+}
+
+.time {
+  color: #666;
+}
+
+/* Contact Form Section */
+.contact-form-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.contact-form-container h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.contact-form-container h3:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #FC6A03;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #FC6A03;
+  box-shadow: 0 0 0 0.25rem rgba(252, 106, 3, 0.25);
+}
+
+.submit-btn {
+  background-color: #FC6A03;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e05e00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(252, 106, 3, 0.3);
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .contact-info {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .connect-header {
+    padding: 3rem 0;
+  }
+  
+  .connect-header h1 {
+    font-size: 2rem;
+  }
+  
+  .contact-form-container, .contact-info {
+    padding: 1.5rem;
+  }
+}

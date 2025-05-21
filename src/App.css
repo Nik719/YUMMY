@@ -1,0 +1,15 @@
+.background-image {
+    background-image: url("./assets/landing1.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100vh; 
+}
+.custom-pagination .page-link{
+    color: #FC6A03;
+}
+.custom-pagination .page-link:hover{
+    color: #e25e00;
+}
+
+

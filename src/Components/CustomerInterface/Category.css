@@ -1,0 +1,95 @@
+/* Container styling */
+.category-carousel-container {
+  position: relative;
+  padding: 0 30px; /* Add padding to make space for arrows */
+}
+
+/* Item styling */
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 15px 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.category-item:hover {
+  transform: translateY(-5px);
+}
+
+.category-image {
+  width: 4rem !important;
+  height: 4rem !important;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-text {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* Custom arrows styling */
+.custom-arrow {
+  position: absolute;
+  z-index: 10;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.custom-arrow:hover {
+  background-color: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.custom-left-arrow {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom-right-arrow {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Add padding to carousel items */
+.carousel-item-padding {
+  padding: 0 5px;
+}
+
+/* Ensure the carousel container has proper spacing */
+.carousel-container {
+  padding: 10px 0;
+}
+
+/* For Font Awesome icons - if you're using them */
+.fa {
+  font-size: 12px;
+}
+
+/* If you're not using Font Awesome, you can use these arrow characters instead */
+.custom-left-arrow:after {
+  content: "‹";
+  font-size: 18px;
+}
+
+.custom-right-arrow:after {
+  content: "›";
+  font-size: 18px;
+}
